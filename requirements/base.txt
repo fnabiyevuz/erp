@@ -7,3 +7,4 @@ phonenumbers==8.13.9
 Pillow==9.5.0
 djangorestframework==3.14.0
 django-filter==23.1
+djangorestframework-simplejwt==5.2.2
