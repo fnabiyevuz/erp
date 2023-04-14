@@ -35,6 +35,6 @@ class Project(BaseModel):
         return self.name
 
     class Meta:
-        verbose_name = "Service"
-        verbose_name_plural = "Services"
+        verbose_name = "Project"
+        verbose_name_plural = "Projects"
 

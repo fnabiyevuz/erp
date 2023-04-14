@@ -13,5 +13,6 @@ urlpatterns = [
     path('position/', position.PositionListCreateAPIView.as_view(), name='position'),
     path('position/<int:pk>/', position.PositionRetrieveUpdateDestroyAPIView.as_view(),
          name='position-retrieve-update-destroy'),
-    path('attendance/', attendance.AttendanceListAPIView.as_view(), name='attendance-list'),
+    path('attendance/', attendance.AttendanceCreateAPIView.as_view(), name='attendance-create'),
+    path('attendance/list/', attendance.AttendanceListAPIView.as_view(), name='attendance-list'),
 ]
