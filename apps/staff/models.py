@@ -11,8 +11,8 @@ class Position(BaseModel):
         return self.name
 
     class Meta:
-        verbose_name = "Category"
-        verbose_name_plural = "Categories"
+        verbose_name = "Position"
+        verbose_name_plural = "Positions"
 
 
 class Staff(BaseModel):
