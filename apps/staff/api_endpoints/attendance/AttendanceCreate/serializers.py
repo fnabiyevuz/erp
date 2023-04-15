@@ -1,6 +1,5 @@
 from rest_framework import serializers
 
-from apps.staff.api_endpoints.staff.StaffCreate.serializers import StaffSerializer
 from apps.staff.models import Attendance
 
 
