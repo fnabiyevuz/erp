@@ -42,3 +42,4 @@ class Attendance(BaseModel):
     class Meta:
         verbose_name = "Attandance"
         verbose_name_plural = "Attandances"
+        unique_together = ('staff', 'created_at')
